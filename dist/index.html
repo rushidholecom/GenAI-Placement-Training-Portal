@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="theme-color" content="#f97316" />
+<meta name="description" content="CloudBlitz GenAI Placement Training Classroom — premium placement preparation platform." />
+<title>CloudBlitz GenAI Placement Training Classroom</title>
+<link rel="stylesheet" href="./src/styles.css?v=live20261020a" />
+<link rel="stylesheet" href="./src/sop-visual.css?v=live20261020a" />
+<link rel="stylesheet" href="./src/resume-ui.css?v=live20261020a" />
+<link rel="stylesheet" href="./src/linkedin-profile.css?v=live20261020a" />
+<link rel="stylesheet" href="./src/github-profile.css?v=live20261020a" />
+<link rel="stylesheet" href="./src/dashboard-premium.css?v=live20261020a" />
+<style>
+:root{--cb-orange:#f97316;--cb-orange2:#fb923c;--cb-navy:#07111f;--cb-ink:#172033;--cb-line:#e7edf4;--cb-shadow:0 20px 55px rgba(15,23,42,.11)}
+html{scroll-behavior:smooth}body{background:linear-gradient(180deg,#f7f9fc 0%,#fff 40%,#f8fafc 100%)}
+.topbar{background:rgba(255,255,255,.92);box-shadow:0 1px 0 rgba(15,23,42,.04),0 8px 30px rgba(15,23,42,.055);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px)}
+.brandmark{background:linear-gradient(135deg,#ea580c,#f97316 58%,#fdba74);box-shadow:0 12px 30px rgba(249,115,22,.3);position:relative;overflow:hidden}.brandmark:after{content:"";position:absolute;inset:-70%;background:linear-gradient(100deg,transparent 43%,rgba(255,255,255,.5) 50%,transparent 57%);transform:translateX(-65%) rotate(20deg);animation:cbShine 5.5s ease-in-out infinite}
+.sidebar{background:linear-gradient(180deg,#0b1220,#111827 70%,#17100c);border-right:1px solid rgba(255,255,255,.05)}.nav-btn.active{background:linear-gradient(90deg,rgba(249,115,22,.16),rgba(255,255,255,.04));box-shadow:inset 3px 0 0 #f97316,0 6px 18px rgba(0,0,0,.08)}
+.content{position:relative}.content:before{content:"";position:fixed;width:420px;height:420px;right:-260px;bottom:-220px;border-radius:50%;background:rgba(249,115,22,.045);filter:blur(10px);pointer-events:none;z-index:-1}
+.hero{background:radial-gradient(circle at 84% 18%,rgba(249,115,22,.28),transparent 27%),radial-gradient(circle at 20% 110%,rgba(59,130,246,.08),transparent 30%),linear-gradient(135deg,#07111f,#111827 54%,#431407);box-shadow:0 28px 75px rgba(15,23,42,.2);border:1px solid rgba(255,255,255,.08);isolation:isolate}
+.hero:before{content:"";position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.04) 1px,transparent 1px);background-size:36px 36px;mask-image:linear-gradient(to bottom,black,transparent);pointer-events:none;z-index:-1}.hero:after{width:400px;height:400px;right:-145px;top:-185px;background:radial-gradient(circle,rgba(249,115,22,.36),rgba(249,115,22,.05) 52%,transparent 70%);filter:blur(2px);animation:cbFloat 8s ease-in-out infinite}.hero h2{letter-spacing:-.035em;text-shadow:0 4px 25px rgba(0,0,0,.2)}.eyebrow{display:inline-flex;align-items:center;gap:7px}.eyebrow:before{content:"";width:7px;height:7px;border-radius:50%;background:#fb923c;box-shadow:0 0 0 5px rgba(249,115,22,.12);animation:cbPulse 2s infinite}
+.stats .stat,.card,.resource,.continue-card,.phase,.road-card,.topic-row,.asset-card{box-shadow:0 8px 28px rgba(15,23,42,.055);transition:transform .25s cubic-bezier(.2,.8,.2,1),box-shadow .25s ease,border-color .25s ease}.stats .stat:hover,.card.click:hover,.resource:hover,.phase:hover,.road-card:hover,.asset-card:hover{transform:translateY(-5px);box-shadow:var(--cb-shadow);border-color:#fdba74}
+.stat{position:relative;overflow:hidden}.stat:after{content:"";position:absolute;width:90px;height:90px;right:-55px;bottom:-55px;border-radius:50%;background:rgba(249,115,22,.07)}.stat b{letter-spacing:-.04em}
+.section-title h3{letter-spacing:-.025em}.section-title h3:before{content:"";display:inline-block;width:4px;height:20px;border-radius:4px;background:linear-gradient(#f97316,#fb923c);margin-right:9px;vertical-align:-4px}
+.progress{box-shadow:inset 0 1px 2px rgba(15,23,42,.08)}.progress i{background:linear-gradient(90deg,#c2410c,#f97316,#fdba74);background-size:200% 100%;animation:cbProgress 3s linear infinite}
+.nav-btn{transition:background .18s ease,transform .18s ease,color .18s ease}.nav-btn:hover{transform:translateX(3px)}.btn,.pill-btn{transition:transform .18s ease,box-shadow .18s ease,filter .18s ease}.btn:hover,.pill-btn:hover{transform:translateY(-2px);box-shadow:0 11px 26px rgba(15,23,42,.12)}.btn.orange,.pill-btn.primary{box-shadow:0 10px 28px rgba(249,115,22,.22)}.btn.orange:hover,.pill-btn.primary:hover{filter:saturate(1.08);box-shadow:0 14px 32px rgba(249,115,22,.28)}
+.quick-grid .card{position:relative;overflow:hidden}.quick-grid .card:after{content:"";position:absolute;width:100px;height:100px;right:-55px;bottom:-55px;border-radius:50%;background:rgba(249,115,22,.065);transition:transform .35s ease}.quick-grid .card:hover:after{transform:scale(1.8)}
+.phase{overflow:hidden}.phase:before{content:"";position:absolute;left:0;top:0;width:100%;height:3px;background:linear-gradient(90deg,#f97316,#fdba74,transparent)}.phase:nth-child(2){transform:translateY(5px)}.phase:nth-child(2):hover{transform:translateY(0)}
+.walkthrough{box-shadow:0 20px 55px rgba(2,6,23,.2);border:1px solid rgba(255,255,255,.08);position:relative;overflow:hidden}.walkthrough:after{content:"";position:absolute;right:-8%;bottom:-80%;width:360px;height:360px;border-radius:50%;background:rgba(249,115,22,.12);filter:blur(8px);pointer-events:none}.walk-count{box-shadow:inset 0 0 35px rgba(249,115,22,.08),0 0 32px rgba(249,115,22,.08);animation:cbPulse 4s ease-in-out infinite}
+.journey{position:relative}.journey-progress .progress i{box-shadow:0 0 12px rgba(249,115,22,.3)}.roadmap:before{background:linear-gradient(#fed7aa,#f97316,#fed7aa);background-size:100% 180%;animation:cbRoad 5s linear infinite}
+.footer{border-top:1px solid var(--cb-line);margin-top:28px;padding-top:24px}
+@keyframes cbShine{0%,55%{transform:translateX(-65%) rotate(20deg)}78%,100%{transform:translateX(65%) rotate(20deg)}}@keyframes cbFloat{0%,100%{transform:translate3d(0,0,0)}50%{transform:translate3d(-12px,16px,0)}}@keyframes cbProgress{0%{background-position:0 0}100%{background-position:200% 0}}@keyframes cbPulse{50%{box-shadow:0 0 0 8px rgba(249,115,22,.025)}}@keyframes cbRoad{to{background-position:0 180%}}
+@media(max-width:1000px){.hero:after{width:300px;height:300px}.phase:nth-child(2){transform:none}}
+@media(max-width:760px){.hero{border-radius:18px;padding:23px}.hero:after{width:230px;height:230px;right:-95px;top:-85px}.stats .stat:hover,.card.click:hover,.resource:hover,.phase:hover,.road-card:hover,.asset-card:hover{transform:none}.btn:hover,.pill-btn:hover,.nav-btn:hover{transform:none}.content:before{display:none}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<div id="app"></div>
+<script src="./data.js?v=genai-content-1"></script>
+<script src="./src/data/content.js?v=genai-content-1"></script>
+<script src="./src/portal.js?v=live20261020a"></script>
+<script src="./src/trainer.js?v=live20261020a"></script>
+<script src="./src/sop-visual.js?v=live20261020a"></script>
+<script src="./src/resume-ui.js?v=live20261020a"></script>
+<script src="./src/linkedin-profile.js?v=live20261020a"></script>
+<script src="./src/linkedin-integration.js?v=live20261020a"></script>
+<script src="./src/github-profile.js?v=live20261020a"></script>
+<script src="./src/github-integration.js?v=live20261020a"></script>
+</body>
+</html>

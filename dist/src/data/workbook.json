@@ -1,0 +1,11 @@
+{
+  "program": "GenAI Placement Readiness Batch",
+  "source": "data.js",
+  "focus": [
+    "GenAI career readiness and interview preparation",
+    "LLM foundations and prompt engineering",
+    "RAG, embeddings, vector databases and evaluation",
+    "Agents, tool calling, system design and responsible AI",
+    "End-to-end GenAI project planning, build and handover"
+  ]
+}
