@@ -2,6 +2,12 @@
 
 A static, responsive classroom portal for GenAI placement readiness. It includes the 12-day GenAI roadmap, Trainer Mode, project SOP, workbook explorer, GenAI resume examples, profile guidance, and interview preparation.
 
+## Live portal
+
+After publishing this repository with GitHub Pages, the portal will be available at:
+
+[https://rushidholecom.github.io/GenAI-Placement-Training-Portal/](https://rushidholecom.github.io/GenAI-Placement-Training-Portal/)
+
 ## Run locally
 
 Open `index.html` in a browser, or run `node local-server.mjs` and visit `http://localhost:8000`.
